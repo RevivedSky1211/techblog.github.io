@@ -1,0 +1,167 @@
+html,
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.front-page {
+    background-image: url(https://images.unsplash.com/photo-1470938017644-581bd9737a31?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=3cb9af6ef2d161bd9a227c985ffd2cf0);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+front-page #welcome {
+    display: relative;
+    text-align: center;
+}
+
+.front-page #welcome h1 {
+    font-family: Varela Round, sans-serif;
+    color: rgba(253, 254, 254, 1);
+    text-shadow: grey 1px 1px 1px;
+    font-weight: 500;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.front-page #start-button {
+    text-decoration: none;
+    display: block;
+    width: 10em;
+    font-size: 1.3em;
+    line-height: 2.5em;
+    border: 1.9px solid #3086C6;
+    background-color: #3086C6;
+    font-family: Varela Round, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: -20px auto;
+}
+
+.front-page #start-button:hover {
+    background-color: white;
+    color: #3086C6;
+}
+
+.container {
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background: white;
+}
+
+.navbar #logo {
+    display: inline-block;
+    float: left;
+    font-family: consolas;
+    font-size: 45px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.navbar .button {
+    display: inline-block;
+    border: 1.9px solid #3086C6;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.navbar .button a {
+    text-decoration: none;
+    font-family: Varela Round, sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar .sign-up {
+    position: relative;
+    margin-right: 20px;
+    color: white;
+    background-color: #3086C6;
+}
+
+.navbar .sign-up a:hover {
+    background: white;
+    color: #3086C6;
+}
+
+.navbar .sign-in a {
+    color: #3086C6;
+}
+
+.navbar .sign-in {
+    background-color: white;
+}
+
+.navbar .sign-in a:hover {
+    background: #212020;
+    color: white;
+}
+
+#content {
+    height: 100%;
+}
+
+.post {
+    font-family: 'Segoe UI', sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #F2F3F4;
+}
+
+.post h1 {
+    color: #3086C6;
+    text-align: center;
+    font-weight: 100;
+}
+
+#hi {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+#hi h1, h3 {
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#hi h3 {
+    font-size: 30px;
+}
+
+footer {
+    font-family: sans-serif;
+    border-top: 1px solid #2D3A3A;
+    background-color: #2D3A3A;
+    color: white;
+    height: 20px;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 10px;
+}
